@@ -4,8 +4,61 @@
   font-size: 50rpx;
   font-family: Gabriola;
   font-weight: 700;
-  color: #0b0ba7;
+  color: #8243c0;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.line{
+  margin: 20rpx auto;
+  width: 96vw;
+  height: 7rpx;
+  background-color: #8243c0;
+}
+
+.playground{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playground .title{
+  margin: 30rpx 0;
+  width: 400rpx;
+  font-size: 44rpx;
+  font-weight: 400;
+  word-spacing: 10rpx;
+  padding: 10rpx;
+  background-color: #fff;
+  color: rebeccapurple;
+  border-radius: 40rpx;
+  border: 1px solid rgb(192, 192, 252);
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.08);
+}
+
+.sentence{
+  margin:  0 auto;
+  width: 94vw;
+  border: 5rpx dashed #bc8fe9;
+  padding: 10rpx 30rpx;
+  border-radius: 40rpx;
+  
+
+}
+.sentence .texts{
+  /* float: left; */
+  font-family: Gabriola;
+  display: inline-block;
+  border-radius: 20rpx;
+  padding: 20rpx 20rpx 10rpx;
+  margin: 10rpx 0;
+  font-size: 32rpx;
+  color: #444;
+  max-width: 95%;
+  /* height: 2em; */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  box-shadow: 0 0 5px 1px rgba(192, 192, 252, 0.68);
 }

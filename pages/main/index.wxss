@@ -1,5 +1,5 @@
 /* pages/main/index.wxss */
 
 .main{
-  padding-top: 120rpx;
+  padding: 120rpx 0 140rpx 0;
 }

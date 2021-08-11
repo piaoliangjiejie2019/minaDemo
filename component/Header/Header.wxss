@@ -2,6 +2,7 @@
 @import '../../colorui/main.wxss';
 @import '../../colorui/icon.wxss';
 @import '../../colorui/animation.wxss';
+
 .header {
   position: fixed;
   display: flex;
@@ -13,7 +14,9 @@
   background: white;
   box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.18);
   border-top: 1rpx solid #8243c0;
+  z-index: 999;
 }
+
 .header-item {
   flex: 1 ;
   display: flex;

@@ -6,7 +6,7 @@
     data-index="{{index}}"
     bindtap="switchTab"
   >
-    <cover-view>{{item.text}}</cover-view>
+    <cover-view class="cover-view">{{item.text}}</cover-view>
   </view>
 
 </cover-view>

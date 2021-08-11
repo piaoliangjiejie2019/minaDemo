@@ -1,8 +1,8 @@
 <!--component/Swiper/Swiper.wxml-->
 <view class="swiper">
-  <swiper autoplay duration="1000" circular easing-function="easeOutCubic" indicator-dots indicator-active-color="#8243c0">
-    <swiper-item wx:for="{{swiperList}}" wx:key="{{item.id}}">
-      <image src="{{item.imgsrc}}" mode="widthFix" ></image>
+  <swiper class="swiper-swiper" autoplay duration="1000" circular easing-function="easeOutCubic" indicator-dots indicator-active-color="#8243c0">
+    <swiper-item wx:for="{{swiperList}}" wx:key="*this">
+      <image class="swiper-image" src="{{item.imgsrc}}" mode="widthFix" ></image>
     </swiper-item>
   </swiper>
 </view>

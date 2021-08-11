@@ -1,5 +1,13 @@
 <!--component/Home/Home.wxml-->
 <view class="home">
   <view class="title">HOME</view>
-  <Swiper></Swiper>
+  <scroll-view scroll-y>
+    <Swiper></Swiper>
+    <!-- <view class="line"></view> -->
+    <view class="playground"><view class="title">sentence Playground</view> </view>  
+    <view class="sentence">
+      <text class="texts" wx:for="{{centences}}" wx:key="*this">{{index + 1}}.{{item}}</text>
+    </view>
+  </scroll-view>
+
 </view>
