@@ -14,13 +14,16 @@ Component({
     color: "#fff",
     list: [
       {
+        "name":"home",
         "text": "首页",
         "isActive": true
       },
       {
+        "name":"personal",
         "text": "个人中心",
         "isActive": false
       }, {
+        "name":"others",
         "text": "其他",
         "isActive": false
       }
@@ -35,6 +38,7 @@ Component({
       const { index } = e.currentTarget.dataset;
       let { list } = this.data;
       list.forEach((v, i) => i === index ? v.isActive = true : v.isActive = false);
+      this.triggerEvent("transmitTab",{index})
       this.setData({
         list
       })

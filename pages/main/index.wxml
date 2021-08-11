@@ -2,6 +2,8 @@
 
 <Header></Header>
 <view class="main">
-  <Home></Home>
+  <Home wx:if="{{selected === 0}}"></Home>
+  <Personal wx:elif ="{{selected === 1}}"></Personal>
+  <Users wx:else></Users>
 </view>
-<tabBar></tabBar>
+<tabBar bindtransmitTab="handleTransmit"></tabBar>
