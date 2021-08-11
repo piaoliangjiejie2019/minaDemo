@@ -30,7 +30,8 @@ Component({
           duration:1000,
           mask: true
         })
-        console.log(inputText);
+        this.triggerEvent("publish",{inputText});
+        // console.log(inputText);
         this.setData({
           modalName: null,
           inputText: ""

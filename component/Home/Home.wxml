@@ -6,7 +6,7 @@
     <!-- <view class="line"></view> -->
     <view class="playground"><view class="title">sentence Playground</view> </view>  
     <view class="sentence">
-      <text class="texts" wx:for="{{centences}}" wx:key="*this">{{index + 1}}.{{item}}</text>
+      <text class="texts" wx:for="{{sentences}}" wx:key="*this">{{index + 1}}.{{item}}</text>
     </view>
   </scroll-view>
 
