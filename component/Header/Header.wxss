@@ -1,0 +1,83 @@
+/* component/Header/Header.wxss */
+@import '../../colorui/main.wxss';
+@import '../../colorui/icon.wxss';
+@import '../../colorui/animation.wxss';
+.header {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  width:100%;
+  height: 120rpx;
+  background: white;
+  box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.18);
+  border-top: 1rpx solid #8243c0;
+}
+.header-item {
+  flex: 1 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header image{
+  width:100rpx;
+  height:100rpx;
+  border-radius:100rpx;
+  box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.18);
+}
+
+.publish {
+  font-family:Gabriola;
+  font-weight: 700;
+  color: #333;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width:80%;
+  height:70%;
+  background-color:#e6e6fa;
+  border-radius:50rpx;
+  font-size: 38rpx;
+}
+.cu-dialog{
+  background-color: #ededfb;
+  border-radius: 30rpx;
+}
+.cu-bar{
+  background-color: #ededfb;
+}
+
+.cu-bar .content{
+  font-size: 40rpx;
+  font-weight: 700;
+  font-family: Gabriola;
+  color: #333;
+}
+textarea {
+  margin: 0 auto;
+  background-color: #ededfb;
+  width: 600rpx;
+  height: 180rpx;
+  background-color: #fff;
+  border: 1px #ccc solid;
+  font-size: 32rpx;
+  border-radius: 20rpx;
+  /* box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.18); */
+}
+.cu-modal .cu-dialog .cu-bar .action .cu-btn{
+  font-weight: normal;
+  width: 150rpx;
+  margin: 0 20rpx;
+  border-radius: 80rpx;
+  box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.08);
+}
+.cu-modal .cu-dialog .cu-bar .action .cu-btn:nth-of-type(1){
+  color: #904ad6;
+  background-color: #fff;
+}
+.cu-modal .cu-dialog .cu-bar .action .cu-btn:nth-of-type(2){
+  color: #fff;
+  background-color: #904ad6;
+}

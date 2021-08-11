@@ -1,16 +1,18 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/home/index",
-    "pages/personal/index",
-    "pages/users/index",
+    "pages/main/index",
     "pages/logs/logs"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "文 enjoy 案",
+    "backgroundColor": "#e6e6fa",             
+    "backgroundTextStyle": "light"
+  },   
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

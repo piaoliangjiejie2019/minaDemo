@@ -18,6 +18,6 @@
     </block>
   </view>
   <view class="usermotto">
-    <navigator open-type="redirect" url="../home/index" class="user-motto">{{motto}}</navigator>
+    <view class="user-motto" bindtap="handelinmain" data-face="{{userInfo.avatarUrl}}">{{motto}}</view>
   </view>
 </view>

@@ -1,0 +1,4 @@
+/* pages/main/index.wxss */
+.main{
+  padding-top: 120rpx;
+}

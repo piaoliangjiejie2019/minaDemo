@@ -1,0 +1,7 @@
+<!--pages/main/index.wxml-->
+
+<Header></Header>
+<view class="main">
+  <text>pages/main/index.wxml</text>
+</view>
+<tabBar></tabBar>

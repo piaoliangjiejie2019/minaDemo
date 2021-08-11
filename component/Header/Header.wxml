@@ -1,0 +1,29 @@
+<!--component/Header/Header.wxml-->
+<view class="header">
+  <view class="header-item logo"> <image src="https://s3.bmp.ovh/imgs/2021/08/2356815e55b11e38.png"></image> </view>
+  <view class="header-item">
+    <view class="publish" data-target="DialogModal1" role="button" aria-disabled="false" bindtap="showModal">publish</view>
+  </view>
+  <view class="header-item"><image class="">
+  </image></view>
+
+  <view class="cu-modal {{ modalName ==='DialogModal1'?'show':''}}">
+  <view class="cu-dialog">
+    <view class="cu-bar bg-white justify-end">
+      <view class="content">publish</view>
+      <view class="action" bindtap="hideModal">
+        <text class="cuIcon-close text-red"></text>
+      </view>
+    </view>
+    <textarea class="padding-xl" placeholder="分享你的文案吧！" bindinput="handleText" value="{{inputText}}">
+    </textarea>
+    <view class="cu-bar bg-white justify-end">
+      <view class="action">
+        <button class="cu-btn" bindtap="hideModal" data-button="cancel">取消</button>
+        <button class="cu-btn" bindtap="hideModal" data-button="confirm">确定</button>
+      </view>
+    </view>
+  </view>
+</view>
+
+</view>

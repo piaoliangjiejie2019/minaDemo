@@ -1,0 +1,12 @@
+<cover-view class="tab-bar">
+  <view
+    wx:for="{{list}}" 
+    wx:key="index" 
+    class="tab-bar-item {{item.isActive ? 'active': ''}}" 
+    data-index="{{index}}"
+    bindtap="switchTab"
+  >
+    <cover-view>{{item.text}}</cover-view>
+  </view>
+
+</cover-view>
