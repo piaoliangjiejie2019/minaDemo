@@ -1,0 +1,5 @@
+<!--component/Home/Home.wxml-->
+<view class="home">
+  <view class="title">HOME</view>
+  <Swiper></Swiper>
+</view>

@@ -2,7 +2,7 @@
   "usingComponents": {
     "tabBar":"../../component/tabBar/tabBar",
     "Header":"../../component/Header/Header",
-    "Swiper":"../../component/Swiper/Swiper"
+    "Home":"../../component/Home/Home"
   },
   "navigationBarTitleText": "Home"
 }

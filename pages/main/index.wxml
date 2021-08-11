@@ -2,6 +2,6 @@
 
 <Header></Header>
 <view class="main">
-  <Swiper></Swiper>
+  <Home></Home>
 </view>
 <tabBar></tabBar>
