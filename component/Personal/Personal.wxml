@@ -1,13 +1,19 @@
 <!--component/Personal/Personal.wxml-->
 <view class="personal">
   <view class="title">PERSONAL</view>
-  <view class="editBtn">edit</view>
+  <view class="btn"><view class="editBtn">edit</view></view>
   <view class="Initfrom">
-    <view class="left">
-      <open-data type="userAvatarUrl"></open-data>
-    </view>
-    <view class="right">
-      <view><text> </text> <input type="text" disabled /></view>
-    </view>
+      <open-data type="userAvatarUrl" class="face"></open-data>
+      <view class="info">
+        <view class="name">
+          <text>UserName</text> : 
+          <open-data type="userNickName"></open-data> 
+        </view>
+        <view class="sec">
+          <text>Address</text> : 
+          <open-data lang="zh_CN" type="userCountry"></open-data>
+          <open-data lang="zh_CN" type="userProvince"></open-data> 
+        </view>
+      </view>
   </view>
 </view>

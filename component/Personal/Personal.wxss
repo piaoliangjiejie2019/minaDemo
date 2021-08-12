@@ -9,3 +9,53 @@
   justify-content: center;
   align-items: center;
 }
+
+.btn{
+  width: 100vw;
+  height: 80rpx;
+}
+
+.editBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  width: 130rpx;
+  height: 60rpx;
+  right: 100rpx;  
+  border-radius: 100rpx;
+  margin-right: 50rpx;
+  background-color: #e6e6fa;
+  font-size: 35rpx;
+  color: #333;
+}
+
+.Initfrom{
+  margin: 0 auto;
+  padding: 50rpx;
+  width: 98vw;
+  /* height: 500rpx; */
+  border: rgb(156, 156, 255) dashed 3rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+
+.Initfrom  .face{
+  display: flex;
+  justify-content: center;
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 400rpx;
+  overflow: hidden;
+  margin-bottom: 30rpx;
+}
+
+.Initfrom .info>view{
+  font-size: 30rpx;
+  margin: 10rpx 0;
+}
+
