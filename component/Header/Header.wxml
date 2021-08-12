@@ -4,8 +4,9 @@
   <view class="header-item">
     <view class="publish" data-target="DialogModal1" role="button" aria-disabled="false" bindtap="showModal">publish</view>
   </view>
-  <view class="header-item"><image class="">
-  </image></view>
+  <view class="header-item">
+    <open-data class="face" type="userAvatarUrl"></open-data>
+  </view>
 
   <view class="cu-modal {{ modalName ==='DialogModal1'?'show':''}}">
   <view class="cu-dialog">

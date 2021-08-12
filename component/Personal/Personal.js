@@ -11,7 +11,7 @@ Component({
    * 组件的初始数据
    */
   data: {
-
+    
   },
 
   /**
@@ -19,5 +19,6 @@ Component({
    */
   methods: {
 
-  }
+  },
+
 })

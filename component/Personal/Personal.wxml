@@ -1,2 +1,13 @@
 <!--component/Personal/Personal.wxml-->
-<text>component/Personal/Personal.wxml</text>
+<view class="personal">
+  <view class="title">PERSONAL</view>
+  <view class="editBtn">edit</view>
+  <view class="Initfrom">
+    <view class="left">
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <view class="right">
+      <view><text> </text> <input type="text" disabled /></view>
+    </view>
+  </view>
+</view>

@@ -1,1 +1,11 @@
 /* component/Personal/Personal.wxss */
+.title{
+  margin-top: 10rpx;
+  font-size: 50rpx;
+  font-family: Gabriola;
+  font-weight: 700;
+  color: #8243c0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

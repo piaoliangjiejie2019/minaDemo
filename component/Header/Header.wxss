@@ -22,12 +22,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 100rpx;
 }
 
 .header image{
   width:100rpx;
   height:100rpx;
   border-radius:100rpx;
+  box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.18);
+}
+
+.header-item .face{
+  width:100rpx;
+  height:100rpx;
+  border-radius: 100rpx;
+  overflow: hidden;
   box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.18);
 }
 

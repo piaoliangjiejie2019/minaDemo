@@ -65,13 +65,11 @@ Component({
     },
   },
   created: function () {
-
   },
   attached: function () {
 
   },
   ready: function () {
-
   },
   moved: function () {
 
