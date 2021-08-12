@@ -1,4 +1,8 @@
 /* component/Home/Home.wxss */
+@import '../../colorui/icon.wxss';
+@import '../../colorui/main.wxss';
+@import '../Header/Header.wxss';
+
 .title{
   margin-top: 10rpx;
   font-size: 50rpx;
@@ -25,8 +29,8 @@
 
 .playground .title{
   margin: 30rpx 0;
-  width: 400rpx;
-  font-size: 44rpx;
+  width: 500rpx;
+  font-size: 35rpx;
   font-weight: 400;
   word-spacing: 10rpx;
   padding: 10rpx;
@@ -43,15 +47,14 @@
   border: 5rpx dashed #bc8fe9;
   padding: 10rpx 30rpx;
   border-radius: 40rpx;
-  
-
 }
+
 .sentence .texts{
   /* float: left; */
   font-family: Gabriola;
   display: inline-block;
   border-radius: 20rpx;
-  padding: 20rpx 20rpx 10rpx;
+  padding: 20rpx;
   margin: 10rpx 0;
   font-size: 32rpx;
   color: #444;
@@ -61,4 +64,28 @@
   white-space: nowrap;
   text-overflow: ellipsis;
   box-shadow: 0 0 5px 1px rgba(192, 192, 252, 0.68);
+}
+
+.cu-dialog{
+  padding: 0 0 30rpx;
+}
+.cu-dialog .content{
+  font-size: 35rpx;
+  font-weight: normal;
+}
+
+.textinside{
+  /* padding: 20rpx 20rpx;
+  height: 80px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textinside>view{
+  width: 90vw;
+  /* width: 96%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
 }

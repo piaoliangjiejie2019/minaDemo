@@ -3,6 +3,7 @@
   height: 100vh;
   background-color: rgb(230, 230, 250);
   position: relative;
+  font-size: 40rpx;
 }
 
 .userinfo {

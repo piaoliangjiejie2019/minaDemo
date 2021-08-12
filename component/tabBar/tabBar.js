@@ -22,11 +22,12 @@ Component({
         "name":"personal",
         "text": "个人中心",
         "isActive": false
-      }, {
-        "name":"others",
-        "text": "其他",
-        "isActive": false
-      }
+      }, 
+      // {
+      //   "name":"others",
+      //   "text": "其他",
+      //   "isActive": false
+      // }
     ]
   },
 

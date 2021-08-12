@@ -6,7 +6,21 @@
     <!-- <view class="line"></view> -->
     <view class="playground"><view class="title">sentence Playground</view> </view>  
     <view class="sentence">
-      <text class="texts" wx:for="{{sentences}}" wx:key="*this">{{index + 1}}.{{item}}</text>
+      <text class="texts" wx:for="{{sentences}}" wx:key="*this" bindtap="showModal" data-target="Modal" data-sentence="{{item}}">{{index + 1}}.{{item}}</text>
+    </view>
+    
+    <view class="cu-modal {{modalName=='Modal'?'show':''}}">
+      <view class="cu-dialog">
+        <view class="cu-bar bg-white justify-end">
+          <view class="content">完整句子</view>
+          <view class="action" bindtap="hideModal">
+            <text class="cuIcon-close text-red"></text>
+          </view>
+        </view>
+        <textarea disabled class="textinside">
+        <view> {{ wholeSentence }}</view>
+        </textarea>
+      </view>
     </view>
   </scroll-view>
 

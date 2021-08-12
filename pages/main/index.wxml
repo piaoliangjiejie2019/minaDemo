@@ -1,9 +1,9 @@
 <!--pages/main/index.wxml-->
 
 <Header bindpublish="handlePublish"></Header>
+<tabBar bindtransmitTab="handleTransmit"></tabBar>
 <view class="main">
   <Home wx:if="{{selected === 0}}" sentences="{{sentences}}"></Home>
   <Personal wx:elif ="{{selected === 1}}"></Personal>
   <Users wx:else></Users>
 </view>
-<tabBar bindtransmitTab="handleTransmit"></tabBar>
